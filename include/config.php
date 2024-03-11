@@ -7,10 +7,10 @@ define("WEB_EMAIL",""); // Your Website Email
 $web_url = WEB_URL;
 
 function dbConnect(){
-    $servername = "localhost";
-    $username = "root";//DATABASE USERNAME
-    $password = "";//DATABASE PASSWORD
-    $database = "mean";//DATABASE NAME
+    $servername = "shareddb-r.hosting.stackcp.net";
+    $username = "banker-7895";//DATABASE USERNAME
+    $password = "@12345678";//DATABASE PASSWORD
+    $database = "banklist-31323335ee";//DATABASE NAME
     $dns = "mysql:host=$servername;dbname=$database";
 
     try {
